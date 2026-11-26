@@ -50,7 +50,7 @@ jobs:
     steps:
       # The template only, from the backend's dev branch. Never the pull request's head.
       - name: Check out the email template
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: Delivery-Plus0/delivery-plus
           ref: dev
